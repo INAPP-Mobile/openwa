@@ -103,7 +103,7 @@ default ADMIN key on first boot instead.
 In all cases the key is only taken in on the very first boot (empty key
 table); after that, OpenWA stores only a hash + key prefix.
 
-**Dashboard URL**: `https://<your-service>.up.railway.app` (the Railway
+**Dashboard URL**: `https://{your-service}.up.railway.app` (the Railway
 public domain, set automatically on deploy). In the dashboard login field,
 paste the API key — there is **no username field**.
 
