@@ -17,7 +17,7 @@
 # global 'api' prefix in configure-app.ts — verified against the app's own
 # compose file healthcheck.test.)
 # ============================================================================
-ARG OPENWA_TAG=latest
+ARG OPENWA_TAG=0.30.3
 FROM rmyndharis/openwa:${OPENWA_TAG}
 
 ENV PORT=2785
